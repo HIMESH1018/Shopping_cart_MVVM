@@ -24,6 +24,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="200dp"
                 android:id="@+id/imgPreview"
+                android:scaleType="center"
                 android:elevation="5dp"
                 />
 
@@ -295,17 +296,18 @@
         android:orientation="vertical"
         android:layout_margin="10dp"
         android:layout_alignParentBottom="true">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:gravity="center"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:orientation="horizontal">
 
             <ImageButton
                 android:id="@+id/imgBtnQtyMinus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginRight="15dp"
                 android:background="@drawable/btnromoveqty"/>
 
@@ -321,8 +323,8 @@
 
             <ImageButton
                 android:id="@+id/imgBtnQtyPlus"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
                 android:layout_marginRight="15dp"
                 android:background="@drawable/btnaddqty"/>
 
